@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AuthMe.NET</id>
+    <version>2.0.0</version>
+    <authors>AuthMe</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/authme/authme-dotnet-sdk</projectUrl>
+    <description>A comprehensive .NET library for AuthMe license validation system with advanced security, analytics, HWID binding, and modern authentication features.</description>
+    <releaseNotes>v2.0.0:
+      - Complete rebrand from KeyAuth to AuthMe
+      - Enhanced analytics integration with real-time statistics
+      - Advanced security violation detection and reporting
+      - Improved caching with performance optimization
+      - Better error handling with detailed error codes
+      - Multi-tier license support (Basic, Premium, Enterprise)
+      - Mobile and cross-platform optimizations
+      - Modern configuration options and presets
+      - Enhanced UI integration examples
+      - Support for .NET Framework 4.8, .NET 6.0, and .NET Standard 2.0</releaseNotes>
+    <tags>license authentication authme hwid anti-piracy protection analytics security</tags>
+    <repository type="git" url="https://github.com/authme/authme-dotnet-sdk" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.8">
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+        <dependency id="System.Net.Http" version="4.3.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0">
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+        <dependency id="System.Management" version="7.0.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.Win32.Registry" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="NETStandard.Library" version="2.0.3" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+        <dependency id="System.Management" version="7.0.2" exclude="Build,Analyzers" />
+        <dependency id="System.Memory" version="4.5.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.IO" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Management" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Runtime" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Security.Cryptography.Algorithms" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Security.Cryptography.Encoding" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Security.Cryptography.Primitives" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Security.Cryptography.X509Certificates" targetFramework=".NETFramework4.8" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\Users\samga\OneDrive\Desktop\Desktop\APPS\keyauth-system\dotnet-sdk\AuthMe.NET\bin\Debug\net48\AuthMe.NET.dll" target="lib\net48\AuthMe.NET.dll" />
+    <file src="C:\Users\samga\OneDrive\Desktop\Desktop\APPS\keyauth-system\dotnet-sdk\AuthMe.NET\bin\Debug\net6.0\AuthMe.NET.dll" target="lib\net6.0\AuthMe.NET.dll" />
+    <file src="C:\Users\samga\OneDrive\Desktop\Desktop\APPS\keyauth-system\dotnet-sdk\AuthMe.NET\bin\Debug\netstandard2.0\AuthMe.NET.dll" target="lib\netstandard2.0\AuthMe.NET.dll" />
+  </files>
+</package>

@@ -1,0 +1,10 @@
+C:\Users\samga\OneDrive\Desktop\Desktop\APPS\keyauth-system\dotnet-sdk\AuthMe.NET\bin\Debug\netstandard2.0\AuthMe.NET.deps.json
+C:\Users\samga\OneDrive\Desktop\Desktop\APPS\keyauth-system\dotnet-sdk\AuthMe.NET\bin\Debug\netstandard2.0\AuthMe.NET.dll
+C:\Users\samga\OneDrive\Desktop\Desktop\APPS\keyauth-system\dotnet-sdk\AuthMe.NET\bin\Debug\netstandard2.0\AuthMe.NET.pdb
+C:\Users\samga\OneDrive\Desktop\Desktop\APPS\keyauth-system\dotnet-sdk\AuthMe.NET\obj\Debug\netstandard2.0\AuthMe.NET.csproj.AssemblyReference.cache
+C:\Users\samga\OneDrive\Desktop\Desktop\APPS\keyauth-system\dotnet-sdk\AuthMe.NET\obj\Debug\netstandard2.0\AuthMe.NET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samga\OneDrive\Desktop\Desktop\APPS\keyauth-system\dotnet-sdk\AuthMe.NET\obj\Debug\netstandard2.0\AuthMe.NET.AssemblyInfoInputs.cache
+C:\Users\samga\OneDrive\Desktop\Desktop\APPS\keyauth-system\dotnet-sdk\AuthMe.NET\obj\Debug\netstandard2.0\AuthMe.NET.AssemblyInfo.cs
+C:\Users\samga\OneDrive\Desktop\Desktop\APPS\keyauth-system\dotnet-sdk\AuthMe.NET\obj\Debug\netstandard2.0\AuthMe.NET.csproj.CoreCompileInputs.cache
+C:\Users\samga\OneDrive\Desktop\Desktop\APPS\keyauth-system\dotnet-sdk\AuthMe.NET\obj\Debug\netstandard2.0\AuthMe.NET.dll
+C:\Users\samga\OneDrive\Desktop\Desktop\APPS\keyauth-system\dotnet-sdk\AuthMe.NET\obj\Debug\netstandard2.0\AuthMe.NET.pdb

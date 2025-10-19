@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net48;netstandard2.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <DefineConstants Condition="$([MSBuild]::IsOSPlatform('Windows'))">$(DefineConstants);WINDOWS</DefineConstants>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>AuthMe.NET</PackageId>
+    <PackageVersion>2.0.0</PackageVersion>
+    <Authors>AuthMe</Authors>
+    <Company>AuthMe</Company>
+    <Product>AuthMe .NET SDK</Product>
+    <Description>A comprehensive .NET library for AuthMe license validation system with advanced security, analytics, HWID binding, and modern authentication features.</Description>
+    <PackageTags>license;authentication;authme;hwid;anti-piracy;protection;analytics;security</PackageTags>
+    <PackageProjectUrl>https://github.com/authme/authme-dotnet-sdk</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/authme/authme-dotnet-sdk</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>
+      v2.0.0:
+      - Complete rebrand from KeyAuth to AuthMe
+      - Enhanced analytics integration with real-time statistics
+      - Advanced security violation detection and reporting
+      - Improved caching with performance optimization
+      - Better error handling with detailed error codes
+      - Multi-tier license support (Basic, Premium, Enterprise)
+      - Mobile and cross-platform optimizations
+      - Modern configuration options and presets
+      - Enhanced UI integration examples
+      - Support for .NET Framework 4.8, .NET 6.0, and .NET Standard 2.0
+    </PackageReleaseNotes>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <FileVersion>2.0.0.0</FileVersion>
+    <RootNamespace>AuthMe.NET</RootNamespace>
+    <AssemblyName>AuthMe.NET</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Management" Version="7.0.2" Condition="'$(TargetFramework)' != 'net48'" />
+  </ItemGroup>
+
+  <!-- .NET Framework specific packages -->
+  <ItemGroup Condition="'$(TargetFramework)' == 'net48'">
+    <Reference Include="System.Management" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+  </ItemGroup>
+
+  <!-- .NET Standard 2.0 specific packages -->
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+    <PackageReference Include="System.Memory" Version="4.5.5" />
+    <PackageReference Include="Microsoft.Win32.Registry" Version="5.0.0" />
+    <PackageReference Include="NETStandard.Library" Version="2.0.3" />
+  </ItemGroup>
+
+</Project>
