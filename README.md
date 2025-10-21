@@ -1,4 +1,4 @@
-# AuthMe Enterprise-Authentication System
+# AuthMe Enterprise Authentication System
 AuthMe is a authentication software integrating with a web ui.
 
 AuthMe is a simple, production-ready auth and licensing platform. It handles sign-in, roles (user/mod/admin), user profiles with private images, and a clean, fast UX.
