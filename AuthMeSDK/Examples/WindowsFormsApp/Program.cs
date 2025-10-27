@@ -26,14 +26,6 @@ namespace AuthMe.Examples.WindowsForms
                 CacheDurationSeconds = 3,               // Keep cache short for security (default is 3)
                 HwidMethod = HwidMethod.Comprehensive,
                 DiscordSupport = "https://discord.gg/your-server",
-                // Optional UX & telemetry flags (match SDK capabilities)
-                EnableAnalytics = true,
-                ShowValidationDetails = false,
-                ShowSuccessMessage = true,
-                ShowErrorMessages = true,
-                ShowSecurityAlerts = true,
-                CustomSuccessMessage = "🎉 Welcome! Your license is valid.",
-                CustomErrorMessage = "❌ Access denied. Please check your license key."
             };
 
             // Validate before constructing the client to avoid constructor exceptions
