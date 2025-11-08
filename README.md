@@ -9,7 +9,6 @@ Apps & Keys
 
 Support
 - Built-in tickets with attachments, staff replies as “AuthMe Support”, and smart email notifications.
-- Reply by email is ingested back into the ticket.
 
 Pricing & Panels
 - Tiers: Beta/Free/Pro/Premium/Enterprise, enforced in the backend.
